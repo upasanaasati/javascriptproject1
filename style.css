@@ -1,0 +1,240 @@
+.body{
+    box-sizing: border-box;
+}
+.parentMain{
+    background-color: #3D087B;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+
+    padding: 22px;
+    /* padding: 32px; */
+    height: 100%;
+}
+.clockImage{
+    padding: 10px;
+    padding-top: 50px;
+
+    display: flex;
+}
+
+.containerRoution{
+padding-left: 8%;
+display: flex;
+width: 40%;
+flex-direction: column;
+}
+
+.cardmenu{
+    background-color: white;
+    border-radius: 8px;
+    /* height: 400px; */
+    margin: 10px;
+
+}
+
+.menu{
+    padding:  10px 45px 15px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        /* border: 2px solid red; */
+}
+.verrticalLine{
+    border-left: 2px solid gray;
+    margin-left: 10%;
+}
+.MORNINGtITLE{
+    padding: 10PX;
+    background-color: #9140B5;
+    color: white;
+    font-size: 24PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+.setAlarmPlusTime{
+    display: flex;
+  justify-content: space-around;
+
+}
+input{
+    color: #3D087B;
+}
+.wakeup{
+    color: #3D087B;
+}
+.setAlarm{
+    width: 44%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    height: 20px;
+    border-radius: 8px;
+
+    background-image: linear-gradient(85deg, blueviolet, #FC5EFF);
+    /* background-image: repeating-linear-gradient(blueviolet 10px red); */
+}
+.setAlarm:hover{
+    background-image: linear-gradient(85deg, #FC5EFF, blueviolet);
+
+}
+option{
+    padding-right: 100px;
+    width: 200px;
+    /* height: 100px; */
+    background-color:white;
+}
+.alarmTime{
+    display: flex;
+    flex-direction: column;
+    color: #F25CFE;
+    width: 43%;
+margin-bottom: 40px;
+    padding: 7px;
+    border-radius: 8px;
+    background-color: #9140B5;
+}
+
+.containerTimer{
+
+    padding-right: 8%;
+    display: flex;
+    width: 35%;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 10px;
+    flex-direction: column;
+}
+.timer{
+    display: flex;
+
+}
+label{
+    color: #3D087B;
+}
+
+
+.timerhide1{
+
+    opacity: 99%;
+    background-color: #858585;
+    height: 100px;
+    margin-right: -270px;
+    position: relative;
+    margin-top: 110px;
+   bottom: 100px;
+   z-index: 2;
+   border-radius: 15px;
+   left: 100px;
+    width: 100%;
+}
+.timerhide2{
+    /* background-color:#EDEDED; */
+    opacity: 30%;
+    background-color: #8E53F0;
+    height: 100px;
+    margin-right: -270px;
+    position: relative;
+    margin-top: 120px;
+   bottom: 100px;
+   z-index: 3;
+   border-radius: 15px;
+   left: 100px;
+    width: 100%;
+}
+
+.timerUnhide1{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 8px;
+   justify-content: space-around;
+
+}
+.timeContinueBackground{
+    /* background-color: #F6E2FF; */
+    background-image: url(./Images/timeline.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.timerContinue{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+    flex-direction: column;
+    width: 100px;
+color: #8A11BF;
+    align-items: center;
+}
+.timeOnly{
+    font-weight: bold;
+    color: #3D087B;
+}
+.timerContinueghanta{
+    background-color: #F6E2FF;
+    margin: 5px;
+}
+.timerContinueminute{
+    background-color: #F6E2FF;
+    margin: 5px;
+}
+.timerContinuesecond{
+    background-color: #F6E2FF;
+    margin: 5px;
+}
+.amPm{
+    background-image: url(./Images/AM_svg.svg);
+    background-position:center;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.beackfastTitle{
+padding: 30px 2px;
+font-size: 24px;
+box-sizing: border-box;
+color: #8E53F0;
+width: 100%;
+border-radius: 15px;
+text-align: center;
+background-color: white;
+height: 90px;
+margin-top: -90px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.breackfastImagesWindow{
+    /* padding: 25px 50px 0px 50px; */
+    width: 100%;
+    margin-top: 10px;
+
+    border-radius: 15px;
+    box-sizing: border-box;
+
+    height: 250px;
+}
+.breackfastImagesWindowforthPage{
+    background-color: white;
+    border-radius: 15px;
+    /* padding: 20px; */
+    object-fit: cover;
+
+    object-position: center;
+
+
+}
+.breackfastImagesWindowforthPage1{
+    background-color: white;
+    margin-top: -140px;
+}
